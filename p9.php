@@ -3,8 +3,8 @@
 $states = "Mississippi Alabama Texas Massachusetts Kansas"; 
 $statesArray = []; 
 $states1 = explode(' ',$states); 
-echo "Original Array :<br>"; 
 
+echo "Original Array :<br>"; 
 foreach ( $states1 as $i => $value ) 
 print("STATES[$i]=$value<br>"); 
 
