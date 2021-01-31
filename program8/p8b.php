@@ -22,7 +22,8 @@ echo " ".$b[$row][$col];
 echo "<br/>"; 
 } 
  
-echo "the transpose for the first matrix is:"."<br/>"; for ($row = 0; $row < $m; $row++) { 
+echo "the transpose for the first matrix is:"."<br/>"; 
+for ($row = 0; $row < $m; $row++) { 
 for ($col = 0; $col < $n; $col++) 
 echo " ".$a[$col][$row]; 
 echo "<br/>"; 
