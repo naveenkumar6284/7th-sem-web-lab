@@ -16,14 +16,14 @@
     }
 ?>
 <form method="post" action="">
-Calculator<br>
-No1:<input type="number" name="n1" value="<?php echo $txt1; ?>"><br>
-No2:<input type="number" name="n2" value="<?php echo $txt2; ?>"><br>
-Res:<input type="number" name="res" value="<?php echo $res; ?>"><br>
-<input type="submit" name="sub" value="+">
-<input type="submit" name="sub" value="-">
-<input type="submit" name="sub" value="x">
-<input type="submit" name="sub" value="/">
+    Calculator<br>
+    No1:<input type="number" name="n1" value="<?php echo $txt1; ?>"><br>
+    No2:<input type="number" name="n2" value="<?php echo $txt2; ?>"><br>
+    Res:<input type="number" name="res" value="<?php echo $res; ?>"><br>
+        <input type="submit" name="sub" value="+">
+        <input type="submit" name="sub" value="-">
+        <input type="submit" name="sub" value="x">
+        <input type="submit" name="sub" value="/">
 </form>
 <body>
 </html>
